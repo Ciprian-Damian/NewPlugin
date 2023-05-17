@@ -1,0 +1,19 @@
+modules:
+  jira:projectPage:
+    - key: newforge-hello-world-project-page
+      function: main
+      title: NewForge
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/26b262f2-d147-4048-99ac-f905169d954a
+permissions:
+  external:
+    fetch:
+      backend:
+        - 'https://www.dropbox.com/*'
+        - 'https://api.dropboxapi.com/*'
+        - 'https://content.dropboxapi.com/*'
+
+
